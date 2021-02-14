@@ -9,3 +9,13 @@ $maincolor: #009688;
     }
     
 }
+.skills-progress{
+    .progress{
+        height:18px;
+        border-radius: .5rem;
+        .progress-bar{
+            background-color: $maincolor;
+        }
+    }
+    
+}

@@ -7,4 +7,12 @@
   bottom: 0;
 }
 
+.skills-progress .progress {
+  height: 18px;
+  border-radius: 0.5rem;
+}
+.skills-progress .progress .progress-bar {
+  background-color: #009688;
+}
+
 /*# sourceMappingURL=style.css.map */
