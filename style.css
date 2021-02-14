@@ -2,6 +2,11 @@
   color: #009688;
 }
 
+.bg-main {
+  background-color: #009688;
+  color: #fff;
+}
+
 .info .card-title {
   position: absolute;
   bottom: 0;
@@ -13,6 +18,17 @@
 }
 .skills-progress .progress .progress-bar {
   background-color: #009688;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.experience-item {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h2.heading {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

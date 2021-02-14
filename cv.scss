@@ -2,6 +2,10 @@ $maincolor: #009688;
 .main-color{
     color: $maincolor;
 }
+.bg-main{
+background-color: $maincolor;
+color: #fff;
+}
 .info {
     .card-title{
         position: absolute;
@@ -15,7 +19,17 @@ $maincolor: #009688;
         border-radius: .5rem;
         .progress-bar{
             background-color: $maincolor;
+            border-bottom-right-radius:10px ;
+            border-top-right-radius:10px ;
+
         }
     }
     
+}
+.experience-item{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h2.heading{
+    margin-bottom: 30px;
 }
